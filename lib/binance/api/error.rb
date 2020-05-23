@@ -13,6 +13,7 @@ module Binance
       def initialize(code: nil, json: {}, message: nil)
         @code = code || json[:code]
         @msg = message || json[:msg]
+        @msg = json.inspect if @code.nil? && @msg.nil?
       end
 
       def inspect
