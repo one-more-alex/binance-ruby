@@ -8,5 +8,6 @@ require 'binance/api/configuration'
 require 'binance/api/data_stream'
 require 'binance/api/error'
 require 'binance/api/order'
+require 'binance/api/margin'
 require 'binance/api/request'
 require "binance/api/version"
